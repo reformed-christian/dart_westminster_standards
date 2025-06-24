@@ -11,3 +11,4 @@
 export "src/models.dart";
 export "src/loaders.dart";
 export "src/westminster_standards_core.dart";
+export "src/extensions/extensions.dart";

@@ -398,473 +398,234 @@ Chapter 1. Of the Holy Scripture
 
 1. Although the light of nature, and the works of creation and providence do so far manifest the goodness, wisdom, and power of God, as to leave men unexcusable; yet are they not sufficient to give that knowledge of God, and of his will, which is necessary unto salvation.
 
-2. Under the name of Holy Scripture, or the Word of God written, are now contained all the books of the Old and New Testament, which are these:...
+2. Therefore it pleased the Lord, at sundry times, and in divers manners, to reveal himself, and to declare that his will unto his church; and afterwards, for the better preserving and propagating of the truth, and for the more sure establishment and comfort of the church against the corruption of the flesh, and the malice of Satan and of the world, to commit the same wholly unto writing; which maketh the Holy Scripture to be most necessary; those former ways of God's revealing his will unto his people being now ceased.
 ```
 
 **Catechism Format:**
 ```
 Q1. What is the chief end of man?
-A1. Man's chief end is to glorify God, and to enjoy him for ever.
+
+A. Man's chief end is to glorify God, and to enjoy him for ever.
 
 Q2. What rule hath God given to direct us how we may glorify and enjoy him?
-A2. The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.
+
+A. The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.
 ```
 
-**Benefits of Text-Only Access:**
-- **Clean content**: Get just the theological content without scripture references
-- **Simplified processing**: Easier to work with for text analysis or display
-- **Consistent formatting**: Uniform output format across all documents
-- **Range support**: Get text-only content for specific ranges or items
-- **Memory efficient**: Returns strings instead of complex objects
+### Extensions: Fluent API
 
-### Range-Based Search
+The package includes powerful Dart extensions that provide a more intuitive and fluent API for working with Westminster Standards data. These extensions make the code more readable and reduce boilerplate.
 
-You can search within specific ranges of questions or chapters, with support for filtering by different parts:
+#### Collection Extensions
 
-```dart
-// Search within a range of Shorter Catechism questions
-final godInFirstTen = searchWestminsterShorterCatechismRange(1, 10, 'God');
-for (final question in godInFirstTen) {
-  print('Q${question.number}: ${question.question}');
-}
-
-// Search within a range of Larger Catechism questions
-final christInRange = searchWestminsterLargerCatechismRange(25, 100, 'Christ');
-for (final question in christInRange) {
-  print('Q${question.number}: ${question.question}');
-}
-
-// Search within a range of Confession chapters
-final salvationInChapters = searchWestminsterConfessionRange(1, 5, 'salvation');
-for (final chapter in salvationInChapters) {
-  print('Chapter ${chapter.number}: ${chapter.title}');
-}
-
-// Search within specific questions by numbers
-final specificQuestions = searchWestminsterShorterCatechismByNumbers(
-  [1, 3, 5, 7], 'What', CatechismItemPart.question,
-);
-
-// Search within specific chapters by numbers
-final specificChapters = searchWestminsterConfessionByNumbers(
-  [1, 5, 10], 'faith',
-);
-```
-
-#### Part Filtering for Catechism Questions
-
-You can filter searches to specific parts of catechism questions:
-
-```dart
-// Search in questions only
-final questionOnly = searchWestminsterShorterCatechismRange(
-  1, 10, 'God', CatechismItemPart.question,
-);
-
-// Search in answers only
-final answerOnly = searchWestminsterShorterCatechismRange(
-  1, 10, 'God', CatechismItemPart.answer,
-);
-
-// Search in references only
-final refsOnly = searchWestminsterShorterCatechismRange(
-  1, 20, 'John', CatechismItemPart.references,
-);
-
-// Search in questions and answers only
-final qaOnly = searchWestminsterShorterCatechismRange(
-  1, 15, 'love', CatechismItemPart.questionAndAnswer,
-);
-
-// Search in questions and references only
-final qrOnly = searchWestminsterShorterCatechismRange(
-  1, 15, 'love', CatechismItemPart.questionAndReferences,
-);
-
-// Search in answers and references only
-final arOnly = searchWestminsterShorterCatechismRange(
-  1, 15, 'love', CatechismItemPart.answerAndReferences,
-);
-
-// Search in all parts (default)
-final allParts = searchWestminsterShorterCatechismRange(1, 10, 'God');
-```
-
-#### Content Filtering for Confession Chapters
-
-You can control whether to search in titles, content, or both:
-
-```dart
-// Search in titles only
-final titlesOnly = searchWestminsterConfessionRange(
-  1, 5, 'God', searchInTitle: true, searchInContent: false,
-);
-
-// Search in content only
-final contentOnly = searchWestminsterConfessionRange(
-  1, 5, 'God', searchInTitle: false, searchInContent: true,
-);
-
-// Search in both titles and content (default)
-final both = searchWestminsterConfessionRange(1, 5, 'God');
-```
-
-#### Lazy Loading Range Search
-
-For auto-initialization, use the lazy loading versions:
-
-```dart
-// Lazy search within ranges
-final lazyRangeSearch = await searchWestminsterShorterCatechismRangeLazy(
-  10, 20, 'Christ',
-);
-
-// Lazy search within specific numbers
-final lazySpecificSearch = await searchWestminsterShorterCatechismByNumbersLazy(
-  [1, 3, 5, 7], 'What',
-);
-
-// Lazy search in confession chapters
-final lazyConfessionSearch = await searchWestminsterConfessionRangeLazy(
-  1, 5, 'salvation',
-);
-```
-
-#### Enhanced Access Range Search
-
-You can also use range search through the enhanced access objects:
-
-```dart
-final standards = await WestminsterStandards.create();
-
-// Range search in Shorter Catechism
-final rangeSearch = standards.shorterCatechism.searchRange(15, 25, 'sin');
-
-// Range search in Confession
-final confessionRangeSearch = standards.confession.searchRange(
-  4, 8, 'grace', searchInTitle: true, searchInContent: true,
-);
-
-// Search by specific numbers
-final specificSearch = standards.shorterCatechism.searchByNumbers(
-  [1, 3, 5, 7], 'What', CatechismItemPart.question,
-);
-```
-
-**Benefits of Range Search:**
-- **Targeted searches**: Search only in the content you're interested in
-- **Performance**: Faster than searching entire documents
-- **Precision**: Filter by specific parts (questions, answers, references, etc.)
-- **Flexibility**: Search by ranges or specific numbers
-- **Part filtering**: Focus on specific aspects of the content
-
-### Working with Clause-Specific Proof Texts
-
-The proof texts are specifically tied to particular clauses or phrases within the Westminster texts:
-
-```dart
-// Example: Working with specific clauses
-final confession = await loadWestminsterConfession();
-final firstSection = confession.first.sections.first;
-
-for (final clause in firstSection.clauses) {
-  print('Clause: "${clause.text}"');
-  print('Supported by:');
-  for (final proofText in clause.proofTexts) {
-    print('  ${proofText.reference}');
-  }
-  print('');
-}
-
-// Get all proof texts for a section (flattened)
-final allProofTexts = firstSection.allProofTexts;
-```
-
-### Enhanced Access with WestminsterStandards Object
-
-For more advanced access patterns, you can use the `WestminsterStandards` object which provides enhanced search and filtering capabilities:
+Extensions on collections provide convenient methods for finding, filtering, and processing Westminster Standards items:
 
 ```dart
 import 'package:westminster_standards/westminster_standards.dart';
 
 void main() async {
-  // Create Westminster Standards instance
   final standards = await WestminsterStandards.create();
-
-  // Enhanced access to catechisms and confession
-  final shorterCatechism = standards.shorterCatechism;
-  final largerCatechism = standards.largerCatechism;
-  final confession = standards.confession;
-
-  // Search for questions containing specific text
-  final godQuestions = standards.shorterCatechism.exactStr('God');
-  for (final question in godQuestions) {
-    print('Q${question.number}: ${question.question}');
-  }
-
-  // Search for confession chapters containing specific text
-  final salvationChapters = standards.confession.exactStr('salvation');
-  for (final chapter in salvationChapters) {
-    print('Chapter ${chapter.number}: ${chapter.title}');
-  }
-
-  // Get questions in a range
-  final firstTen = standards.shorterCatechism.range(1, 10);
-
-  // Get specific questions by numbers
-  final specificQuestions = standards.shorterCatechism.byNumbers([1, 3, 5, 7]);
-
-  // Search questions by question content only
-  final whatQuestions = standards.shorterCatechism.questionContains('What');
-
-  // Search questions by answer content only
-  final godAnswers = standards.shorterCatechism.answerContains('God');
-
-  // Search confession chapters by title
-  final godTitles = standards.confession.titleContains('God');
-
-  // Find sections containing specific text
-  final salvationSections = standards.confession.findSections('salvation');
-
-  // Get all proof texts from a catechism
-  final allProofTexts = standards.shorterCatechism.allProofTexts;
-
-  // Get all sections from confession
-  final allSections = standards.confession.allSections;
-
-  // Index access
-  final firstQuestion = standards.shorterCatechism[0];
-  final firstChapter = standards.confession[0];
+  
+  // Find specific questions by number
+  final question1 = standards.shorterCatechismList.findByNumber(1);
+  final question10 = standards.shorterCatechismList.findByNumber(10);
+  
+  // Get ranges of questions
+  final questions1to5 = standards.shorterCatechismList.getRange(1, 5);
+  final chapters1to3 = standards.confessionList.getRange(1, 3);
+  
+  // Get specific items by numbers
+  final specificQuestions = standards.shorterCatechismList.getByNumbers([1, 5, 10, 15]);
+  final specificChapters = standards.confessionList.getByNumbers([1, 5, 10]);
+  
+  // Search within collections
+  final godQuestions = standards.shorterCatechismList.search('God');
+  final graceChapters = standards.confessionList.search('grace');
+  
+  // Search in specific parts
+  final questionMatches = standards.shorterCatechismList
+      .searchInParts('God', CatechismItemPart.question);
+  final answerMatches = standards.shorterCatechismList
+      .searchInParts('God', CatechismItemPart.answer);
+  
+  // Get all proof texts from a collection
+  final allProofTexts = standards.shorterCatechismList.getAllProofTexts();
+  
+  // Get text-only content
+  final textOnly = standards.shorterCatechismList.textOnly;
+  final rangeTextOnly = standards.shorterCatechismList.getRangeTextOnly(1, 5);
 }
 ```
 
-### Unified Search Across All Standards
+#### String Extensions
 
-The `WestminsterStandards` object provides a powerful unified search method that searches across all documents simultaneously:
-
-```dart
-final standards = await WestminsterStandards.create();
-
-// Search across all documents for "God"
-final allResults = standards.searchAll('God');
-print('Found ${allResults.length} results across all documents');
-
-// Analyze results by document type
-for (final result in allResults) {
-  print('${result.documentType.name.toUpperCase()} ${result.number}: ${result.title}');
-  print('  Match Type: ${result.matchType.name}');
-  print('  Proof Texts: ${result.proofTexts.length}');
-}
-```
-
-#### Search Filtering Options
-
-You can control what content to search in:
+Extensions on strings provide text processing capabilities:
 
 ```dart
-// Search in titles and questions only
-final titleResults = standards.searchAll(
-  'God',
-  searchInTitles: true,
-  searchInContent: false,
-  searchInReferences: false,
-);
+// Remove scripture references from text
+final cleanText = originalText.withoutScriptureReferences;
 
-// Search in content and answers only
-final contentResults = standards.searchAll(
-  'salvation',
-  searchInTitles: false,
-  searchInContent: true,
-  searchInReferences: false,
-);
+// Extract scripture references
+final references = text.scriptureReferences; // Returns ['Gen 1:1', 'John 3:16']
 
-// Search in proof text references only
-final referenceResults = standards.searchAll(
-  'John',
-  searchInTitles: false,
-  searchInContent: false,
-  searchInReferences: true,
-);
+// Highlight search terms
+final highlighted = text.highlightSearchTerm('God'); // Returns text with **God** highlighted
+
+// Get text summary
+final summary = text.summary; // First 100 characters
+
+// Count words
+final wordCount = text.wordCount;
+
+// Check for scripture references
+final hasRefs = text.hasScriptureReferences;
+
+// Normalize whitespace
+final normalized = text.normalized;
+
+// Split into sentences
+final sentences = text.sentences;
+final firstSentence = text.firstSentence;
 ```
 
-#### Unified Search Result Structure
+#### Number Extensions
 
-The `searchAll` method returns `WestminsterSearchResult` objects with consistent structure:
+Extensions on integers provide validation and formatting for Westminster Standards numbers:
 
 ```dart
-class WestminsterSearchResult {
-  final WestminsterDocumentType documentType; // confession, shorterCatechism, largerCatechism
-  final int number; // chapter number or question number
-  final String title; // chapter title or question text
-  final String content; // chapter content or answer text
-  final List<ProofText> proofTexts; // all proof texts for this item
-  final String matchedText; // the specific text that matched
-  final SearchMatchType matchType; // title, content, question, answer, references
-}
+// Validate numbers
+final isValid = 1.isValidShorterCatechismNumber; // true
+final isValidChapter = 33.isValidConfessionChapterNumber; // true
+
+// Format numbers
+final formatted = 1.asQuestionNumber; // "Q1"
+final chapterFormatted = 1.asChapterNumber; // "Chapter 1"
+
+// Get document information
+final docType = 1.documentType; // "Shorter Catechism"
+final totalCount = 1.totalCount; // 107
+
+// Navigation
+final isFirst = 1.isFirst; // true
+final isLast = 107.isLast; // true
+final next = 1.next; // 2
+final previous = 2.previous; // 1
+
+// Get ranges
+final range = 1.rangeTo(5); // [1, 2, 3, 4, 5]
 ```
 
-#### Cross-Document Analysis
+#### Model Extensions
 
-Unified search enables powerful cross-document analysis:
+Extensions on Westminster Standards models provide enhanced access:
 
 ```dart
-final results = standards.searchAll('faith');
+// CatechismItem extensions
+final question = standards.shorterCatechismList.first;
+print(question.displayString); // "Q1: What is the chief end of man?"
+print(question.fullText); // Question + answer
+print(question.textOnly); // Text without scripture references
+print(question.summary); // First sentence of answer
+print(question.contains('God')); // true/false
+print(question.proofTextCount); // Number of proof texts
+print(question.uniqueReferences); // List of unique scripture references
+print(question.proofTextsByReference); // Map of proof texts grouped by reference
 
-// Group by document type
-final byDocument = <WestminsterDocumentType, List<WestminsterSearchResult>>{};
-for (final result in results) {
-  byDocument.putIfAbsent(result.documentType, () => []).add(result);
-}
-
-// Group by match type
-final byMatchType = <SearchMatchType, List<WestminsterSearchResult>>{};
-for (final result in results) {
-  byMatchType.putIfAbsent(result.matchType, () => []).add(result);
-}
-
-// Filter and sort
-final catechismQuestions = results
-    .where((r) => r.documentType != WestminsterDocumentType.confession)
-    .where((r) => r.matchType == SearchMatchType.question)
-    .toList()
-  ..sort((a, b) => a.number.compareTo(b.number));
+// ConfessionChapter extensions
+final chapter = standards.confessionList.first;
+print(chapter.displayString); // "Chapter 1: Of the Holy Scripture"
+print(chapter.sectionCount); // Number of sections
+print(chapter.totalWordCount); // Total words in chapter
+print(chapter.averageWordsPerSection); // Average words per section
+print(chapter.contains('God')); // true/false
+print(chapter.summary); // First sentence of first section
 ```
 
-#### Advanced Search Patterns
+#### Search Extensions
+
+Extensions on search results provide enhanced search functionality:
 
 ```dart
-// Find questions with multiple proof texts about a topic
-final richQuestions = standards.searchAll('justification')
-    .where((r) => r.documentType != WestminsterDocumentType.confession)
-    .where((r) => r.proofTexts.length >= 3)
-    .toList();
+// Enhanced search results
+final results = standards.searchAll('God').sortedByRelevance;
 
-// Find Bible references across all documents
-final johnReferences = standards.searchAll(
-  'John',
-  searchInTitles: false,
-  searchInContent: false,
-  searchInReferences: true,
-);
+// Get search summary
+print(results.searchSummary); // "Found 45 results (confession: 20, shorterCatechism: 15, largerCatechism: 10) - Match types: title: 5, content: 25, question: 10, answer: 5"
 
-// Statistical analysis
-final godResults = standards.searchAll('God');
-final docStats = <WestminsterDocumentType, int>{};
-for (final result in godResults) {
-  docStats[result.documentType] = (docStats[result.documentType] ?? 0) + 1;
-}
+// Group results
+final byDocument = results.groupedByDocument;
+final byMatchType = results.groupedByMatchType;
+
+// Filter results
+final confessionResults = results.fromDocument(WestminsterDocumentType.confession);
+final titleMatches = results.withMatchType(SearchMatchType.title);
+final withProofTexts = results.withProofTexts;
+
+// Get unique types
+final docTypes = results.uniqueDocumentTypes;
+final matchTypes = results.uniqueMatchTypes;
+
+// Format results with highlighting
+final formatted = results.getFormattedWithHighlight('God');
 ```
 
-**Benefits of Unified Search:**
-- **Cross-document analysis**: Search all standards simultaneously
-- **Consistent results**: Unified result structure for all documents
-- **Rich metadata**: Know exactly what matched and where
-- **Flexible filtering**: Control what content to search in
-- **Performance**: Efficient single-method search across all data
-- **Analysis ready**: Easy to group, filter, and analyze results
+#### Async Extensions
 
-#### Enhanced Access Methods
-
-The enhanced access classes provide the following methods:
-
-**Catechism Class:**
-- `exactStr(String searchString)` - Find questions containing the string in question or answer
-- `questionContains(String searchString)` - Find questions where the question contains the string
-- `answerContains(String searchString)` - Find questions where the answer contains the string
-- `startsWith(String searchString)` - Find questions that start with the string
-- `endsWith(String searchString)` - Find questions that end with the string
-- `range(int start, int end)` - Get questions within a range (inclusive)
-- `byNumbers(List<int> numbers)` - Get questions by specific numbers
-- `getQuestion(int number)` - Get a specific question by number
-- `allProofTexts` - Get all proof texts from all questions
-
-**Confession Class:**
-- `exactStr(String searchString)` - Find chapters containing the string in title or content
-- `titleContains(String searchString)` - Find chapters where the title contains the string
-- `contentContains(String searchString)` - Find chapters where any section contains the string
-- `startsWith(String searchString)` - Find chapters that start with the string
-- `endsWith(String searchString)` - Find chapters that end with the string
-- `range(int start, int end)` - Get chapters within a range (inclusive)
-- `byNumbers(List<int> numbers)` - Get chapters by specific numbers
-- `getChapter(int number)` - Get a specific chapter by number
-- `findSections(String searchString)` - Find sections containing the string
-- `allSections` - Get all sections from all chapters
-- `allProofTexts` - Get all proof texts from all chapters
-
-**Both Classes:**
-- `all` - Get all items as a list
-- `firstQuestion`/`firstChapter` - Get the first item
-- `lastQuestion`/`lastChapter` - Get the last item
-- `length` - Get the total number of items
-- `isEmpty`/`isNotEmpty` - Check if empty
-- `iterator` - Support for iteration
-- `operator []` - Index access
-
-#### Text-Only Access (Excluding Scripture References)
-
-The enhanced access classes and `WestminsterStandards` object provide methods to obtain just the text content without scripture references:
-
-**WestminsterStandards Object:**
-```dart
-// Full document text-only access
-final confessionText = standards.confessionTextOnly;
-final shorterCatechismText = standards.shorterCatechismTextOnly;
-final largerCatechismText = standards.largerCatechismTextOnly;
-final allText = standards.allTextOnly;
-
-// Range-based text-only access
-final confessionRangeText = standards.getConfessionRangeTextOnly(1, 3);
-final shorterCatechismRangeText = standards.getShorterCatechismRangeTextOnly(1, 10);
-final largerCatechismRangeText = standards.getLargerCatechismRangeTextOnly(1, 5);
-
-// Specific numbers text-only access
-final confessionSpecificText = standards.getConfessionByNumbersTextOnly([1, 3, 5]);
-final shorterCatechismSpecificText = standards.getShorterCatechismByNumbersTextOnly([1, 3, 5]);
-final largerCatechismSpecificText = standards.getLargerCatechismByNumbersTextOnly([1, 3, 5]);
-```
-
-**Enhanced Access Classes:**
-```dart
-// Full document text-only access
-final confessionText = standards.confession.textOnly;
-final shorterCatechismText = standards.shorterCatechism.textOnly;
-final largerCatechismText = standards.largerCatechism.textOnly;
-
-// Range-based text-only access
-final confessionRangeText = standards.confession.getRangeTextOnly(1, 3);
-final shorterCatechismRangeText = standards.shorterCatechism.getRangeTextOnly(1, 10);
-final largerCatechismRangeText = standards.largerCatechism.getRangeTextOnly(1, 5);
-
-// Specific numbers text-only access
-final confessionSpecificText = standards.confession.getByNumbersTextOnly([1, 3, 5]);
-final shorterCatechismSpecificText = standards.shorterCatechism.getByNumbersTextOnly([1, 3, 5]);
-final largerCatechismSpecificText = standards.largerCatechism.getByNumbersTextOnly([1, 3, 5]);
-```
-
-**Benefits of Text-Only Access:**
-- **Clean content**: Get just the doctrinal text without scripture references
-- **Consistent formatting**: Uniform text structure across all documents
-- **Range flexibility**: Get text for specific chapters or questions
-- **Multiple access patterns**: Full documents, ranges, or specific numbers
-- **Performance**: Efficient text extraction without processing proof texts
-- **Use cases**: Perfect for text analysis, printing, or content extraction
-
-### Backward Compatibility
-
-All existing access methods remain available for backward compatibility:
+Extensions on futures provide better error handling and async operations:
 
 ```dart
-// Original methods still work
-final confession = getWestminsterConfession();
-final shorterCatechism = getWestminsterShorterCatechism();
-final largerCatechism = getWestminsterLargerCatechism();
+// Error handling
+final standards = await WestminsterStandards.create()
+    .withErrorHandling()
+    .withTimeout(const Duration(seconds: 5))
+    .withRetry(maxRetries: 3)
+    .withProgress((message) => print('Progress: $message'));
 
-// Enhanced access provides additional functionality
-final standards = await WestminsterStandards.create();
-final enhancedConfession = standards.confession;
-final enhancedShorterCatechism = standards.shorterCatechism;
-final enhancedLargerCatechism = standards.largerCatechism;
+// Handle null results
+final question = await loadWestminsterShorterCatechismQuestionLazy(1)
+    .withDefault(defaultQuestion)
+    .orThrow('Question not found')
+    .orElse(() => loadWestminsterShorterCatechismQuestionLazy(2));
+
+// Async list operations
+final questions = Future.value(standards.shorterCatechismList);
+final filtered = await questions.whereAsync((q) => q.number <= 5);
+final mapped = await questions.mapAsync((q) => q.displayString);
+final first = await questions.firstOrNull;
+final length = await questions.length;
 ```
+
+#### Fluent API Examples
+
+The extensions enable a fluent, chainable API:
+
+```dart
+// Find questions about God, take first 3, get their summaries
+final godQuestions = standards.shorterCatechismList
+    .search('God')
+    .take(3)
+    .map((q) => q.summary);
+
+// Get proof texts from first 5 questions, group by reference
+final proofTexts = standards.shorterCatechismList
+    .getRange(1, 5)
+    .getAllProofTexts()
+    .groupedByReference;
+
+// Search in specific parts and get formatted results
+final results = standards.shorterCatechismList
+    .searchInParts('God', CatechismItemPart.question)
+    .map((q) => q.getFormattedWithHighlight('God'));
+
+// Validate and format numbers
+final validNumbers = [1, 5, 10, 15]
+    .where((n) => n.isValidShorterCatechismNumber)
+    .map((n) => n.asQuestionNumber);
+```
+
+> **📖 See `example/extensions_example.dart` for a comprehensive demonstration of all extension features.**
+
+The extensions provide a much more intuitive and readable API while maintaining full backward compatibility with the existing functions.
 
 ## Data Models
 
