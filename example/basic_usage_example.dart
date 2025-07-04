@@ -106,15 +106,40 @@ void main() async {
     print('Proof texts for Shorter Catechism Q1:');
     for (final clause in question1.clauses) {
       print('  Clause: ${clause.text}');
+      if (clause.footnoteNum != null) {
+        print('    Footnote ${clause.footnoteNum}:');
+      }
       for (final proofText in clause.proofTexts) {
-        print('    ${proofText.reference}: ${proofText.text}');
+        print('      ${proofText.reference}: ${proofText.text}');
       }
     }
   }
   print('');
 
-  // Method 5: Text-only access (without scripture references)
-  print('5. TEXT-ONLY ACCESS (without scripture references):');
+  // Method 5: Working with footnotes
+  print('5. WORKING WITH FOOTNOTES:');
+  print('==========================');
+
+  final question2 = standards.shorterCatechism.getQuestion(2);
+  if (question2 != null) {
+    print('Shorter Catechism Q2 with footnotes:');
+    print('Q${question2.number}. ${question2.question}');
+    print('A. ${question2.answer}');
+
+    for (final clause in question2.clauses) {
+      if (clause.footnoteNum != null) {
+        print('  Footnote ${clause.footnoteNum}: "${clause.text}"');
+        print('    Supported by ${clause.proofTexts.length} scripture(s):');
+        for (final proofText in clause.proofTexts) {
+          print('      ${proofText.reference}');
+        }
+      }
+    }
+  }
+  print('');
+
+  // Method 6: Text-only access (without scripture references)
+  print('6. TEXT-ONLY ACCESS (without scripture references):');
   print('==================================================');
 
   print('Shorter Catechism Q1-3 (text only):');
@@ -138,6 +163,7 @@ void main() async {
 
   print('=== Basic Usage Example Complete ===');
   print('For more advanced features, see the other example files.');
+  print('For footnote functionality, see footnote_example.dart');
 
   // Run a simple Flutter app to show the results
   runApp(const MyApp());

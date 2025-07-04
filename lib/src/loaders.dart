@@ -92,7 +92,11 @@ Future<List<CatechismItem>> loadWestminsterShorterCatechism() async {
                 );
               }).toList();
 
-          return Clause(text: clause['text'] as String, proofTexts: proofTexts);
+          return Clause(
+            text: clause['text'] as String,
+            proofTexts: proofTexts,
+            footnoteNum: clause['footnoteNum'] as int?,
+          );
         }).toList();
 
     return CatechismItem(
@@ -123,7 +127,11 @@ Future<List<CatechismItem>> loadWestminsterLargerCatechism() async {
                 );
               }).toList();
 
-          return Clause(text: clause['text'] as String, proofTexts: proofTexts);
+          return Clause(
+            text: clause['text'] as String,
+            proofTexts: proofTexts,
+            footnoteNum: clause['footnoteNum'] as int?,
+          );
         }).toList();
 
     return CatechismItem(

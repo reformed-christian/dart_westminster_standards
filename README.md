@@ -346,6 +346,56 @@ final lazySpecificChapters = await loadWestminsterConfessionByNumbersLazy([1, 5,
 - **Flexibility**: Get any range of questions or chapters
 - **Error handling**: Returns empty lists for invalid ranges instead of throwing errors
 
+### Working with Footnotes
+
+The Westminster Catechisms include footnote numbers that link specific parts of answers to their supporting proof texts. The `footnoteNum` field in clauses allows you to identify which parts of answers are supported by which scripture references.
+
+```dart
+// Get a catechism question and examine its footnotes
+final question1 = loadWestminsterShorterCatechismQuestion(1);
+if (question1 != null) {
+  print('Q${question1.number}. ${question1.question}');
+  print('A. ${question1.answer}');
+  
+  // Show clauses with their footnote numbers
+  for (final clause in question1.clauses) {
+    if (clause.footnoteNum != null) {
+      print('  Footnote ${clause.footnoteNum}: "${clause.text}"');
+      print('    Supported by:');
+      for (final proofText in clause.proofTexts) {
+        print('      ${proofText.reference}');
+      }
+    } else {
+      print('  No footnote: "${clause.text}"');
+    }
+  }
+}
+
+// Find questions with specific footnote numbers
+final standards = await WestminsterStandards.create();
+final questionsWithFootnote5 = standards.shorterCatechism.all
+    .where((q) => q.clauses.any((c) => c.footnoteNum == 5))
+    .toList();
+
+// Get statistics about footnotes
+int totalClausesWithFootnotes = 0;
+Set<int> allFootnoteNumbers = {};
+
+for (final question in standards.shorterCatechism.all) {
+  for (final clause in question.clauses) {
+    if (clause.footnoteNum != null) {
+      totalClausesWithFootnotes++;
+      allFootnoteNumbers.add(clause.footnoteNum!);
+    }
+  }
+}
+
+print('Total clauses with footnotes: $totalClausesWithFootnotes');
+print('Unique footnote numbers: ${allFootnoteNumbers.length}');
+```
+
+> **📖 See `example/footnote_example.dart` for a comprehensive demonstration of footnote functionality.**
+
 ### Text-Only Access (Excluding Scripture References)
 
 For cases where you need just the text content without scripture references, the package provides text-only access functions:
@@ -650,6 +700,7 @@ The extensions provide a much more intuitive and readable API while maintaining 
 ### Clause
 - `text`: The specific clause or phrase
 - `proofTexts`: List of ProofText objects that support this clause
+- `footnoteNum`: Footnote number (int?) - identifies which part of the answer this clause supports (catechisms only)
 
 ### ProofText
 - `reference`: Scripture reference (e.g., "John 3:16")

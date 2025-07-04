@@ -6,6 +6,11 @@ import 'proof_text.dart';
 class Clause {
   final String text;
   final List<ProofText> proofTexts;
+  final int? footnoteNum;
 
-  const Clause({required this.text, required this.proofTexts});
+  const Clause({
+    required this.text,
+    required this.proofTexts,
+    this.footnoteNum,
+  });
 }
