@@ -2,7 +2,11 @@
   "1": [
     {
       "reference": "Psalm 86",
-      "text": "Bow down thine ear, O LORD, hear me: for I am poor and needy. Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee. Be merciful unto me, O Lord: for I cry unto thee daily. Rejoice the soul of thy servant: for unto thee, O Lord, do I lift up my soul. For thou, Lord, art good, and ready to forgive; and plenteous in mercy unto all them that call upon thee. Give ear, O LORD, unto my prayer; and attend to the voice of my supplications. In the day of my trouble I will call upon thee: for thou wilt answer me. Among the gods there is none like unto thee, O Lord; neither are there any works like unto thy works. All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest wondrous things: thou art God alone. Teach me thy way, O LORD; I will walk in thy truth: unite my heart to fear thy name. I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore. For great is thy mercy toward me: and thou hast delivered my soul from the lowest hell. O God, the proud are risen against me, and the assemblies of violent men have sought after my soul; and have not set thee before them. But thou, O Lord, art a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth. O turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine handmaid. Show me a token for good; that they which hate me may see it, and be ashamed: because thou, LORD, hast holpen me, and comforted me.  Isaiah 60:21.  Thy people also shall be all righteous: they shall inherit the land for ever, the branch of my planting, the work of my hands, that I may be glorified."
+      "text": "Bow down thine ear, O LORD, hear me: for I am poor and needy. Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee. Be merciful unto me, O Lord: for I cry unto thee daily. Rejoice the soul of thy servant: for unto thee, O Lord, do I lift up my soul. For thou, Lord, art good, and ready to forgive; and plenteous in mercy unto all them that call upon thee. Give ear, O LORD, unto my prayer; and attend to the voice of my supplications. In the day of my trouble I will call upon thee: for thou wilt answer me. Among the gods there is none like unto thee, O Lord; neither are there any works like unto thy works. All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest wondrous things: thou art God alone. Teach me thy way, O LORD; I will walk in thy truth: unite my heart to fear thy name. I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore. For great is thy mercy toward me: and thou hast delivered my soul from the lowest hell. O God, the proud are risen against me, and the assemblies of violent men have sought after my soul; and have not set thee before them. But thou, O Lord, art a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth. O turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine handmaid. Show me a token for good; that they which hate me may see it, and be ashamed: because thou, LORD, hast holpen me, and comforted me."
+    },
+    {
+      "reference": "Isaiah 60:21",
+      "text": "Thy people also shall be all righteous: they shall inherit the land for ever, the branch of my planting, the work of my hands, that I may be glorified."
     },
     {
       "reference": "Romans 11:36",
@@ -61,16 +65,12 @@
       "text": "Which things also we speak, not in the words which man's wisdom teacheth, but which the Holy Ghost teacheth; comparing spiritual things with spiritual."
     },
     {
-      "reference": "1 Corinthians 14:37",
+      "reference": "1 Corinthians 14:37. ",
       "text": "If any man think himself to be a prophet, or spiritual, let him acknowledge that the things that I write unto you are the commandments of the Lord."
     },
     {
       "reference": "2 Peter 1:20-21",
-      "text": "Knowing this first, that no prophecy of the scripture is of any private interpretation. For the prophecy came not in old time by the will of man: but holy (2) men of God spake as they were moved by the Holy Ghost."
-    },
-    {
-      "reference": "2 Peter 3:2, 15-16",
-      "text": "That ye may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us the apostles of the Lord and Saviour.... And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also according to the wisdom given unto him hath written unto you; As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction."
+      "text": "Knowing this first, that no prophecy of the scripture is of any private interpretation. For the prophecy came not in old time by the will of man: but holy"
     }
   ],
   "4": [
@@ -79,7 +79,7 @@
       "text": "Ye shall not add unto the word which I command you, neither shall ye diminish ought from it, that ye may keep the commandments of the LORD your God which I command you."
     },
     {
-      "reference": "Psalm 19:7-11",
+      "reference": "Psalm 19:7-11. ",
       "text": "The law of the LORD is perfect, converting the soul: the testimony of the LORD is sure, making wise the simple. The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure, enlightening the eyes. The fear of the LORD is clean, enduring for ever: the judgments of the LORD are true and righteous altogether. More to be desired are they than gold, yea, than much fine gold: sweeter also than honey and the honeycomb. Moreover by them is thy servant warned: and in keeping of them there is great reward."
     },
     {
@@ -122,10 +122,10 @@
     },
     {
       "reference": "Romans 10:17",
-      "text": "So then faith cometh by hearing, and hearing by the word of God.  2"
+      "text": "So then faith cometh by hearing, and hearing by the word of God."
     },
     {
-      "reference": "Timothy 3:15",
+      "reference": "2 Timothy 3:15",
       "text": "And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus."
     }
   ],
@@ -144,33 +144,17 @@
     },
     {
       "reference": "Micah 6:8",
-      "text": "He hath showed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?  2"
+      "text": "He hath showed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
     },
     {
-      "reference": "Timothy 3:16-17",
+      "reference": "2 Timothy 3:16-17",
       "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, thoroughly furnished unto all good works."
     }
   ],
   "7": [
     {
       "reference": "Deuteronomy 4:15-19",
-      "text": "Take ye therefore good heed unto yourselves; for ye saw no manner of similitude on the day that the LORD spake unto you in Horeb out of the midst of the fire: Lest ye corrupt yourselves, and make you a graven image, the similitude of any figure, the likeness of male or female, The likeness of any beast that is on the earth, the likeness of any winged fowl that flieth in the air, The likeness of any thing that creepeth on the ground, the likeness of any fish that is in the waters beneath the earth: And lest thou lift (3) up thine eyes unto heaven, and when thou seest the sun, and the moon, and the stars, even all the host of heaven, shouldest be driven to worship them, and serve them, which the LORD thy God hath divided unto all nations under the whole heaven."
-    },
-    {
-      "reference": "Luke 24:39",
-      "text": "Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have."
-    },
-    {
-      "reference": "John 1:18",
-      "text": "No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him."
-    },
-    {
-      "reference": "John 4:24",
-      "text": "God is a Spirit: and they that worship him must worship him in spirit and in truth."
-    },
-    {
-      "reference": "Acts 17:29",
-      "text": "Forasmuch then as we are the offspring of God, we ought not to think that the Godhead is like unto gold, or silver, or stone, graven by art and man's device."
+      "text": "Take ye therefore good heed unto yourselves; for ye saw no manner of similitude on the day that the LORD spake unto you in Horeb out of the midst of the fire: Lest ye corrupt yourselves, and make you a graven image, the similitude of any figure, the likeness of male or female, The likeness of any beast that is on the earth, the likeness of any winged fowl that flieth in the air, The likeness of any thing that creepeth on the ground, the likeness of any fish that is in the waters beneath the earth: And lest thou lift"
     }
   ],
   "8": [
@@ -210,11 +194,11 @@
     },
     {
       "reference": "Psalm 102:12, 24-27",
-      "text": "But thou, O LORD, shalt endure for ever; and thy remembrance unto all generations.... I said, O my God, take me not away in the midst of my days: thy years are throughout all generations. Of old hast thou laid the foundation of the earth: and the heavens are the work of thy hands. They shall perish, but thou shalt endure: yea, all of them shall wax old like a garment; as a vesture shalt thou change them, and they shall be changed: But thou art the same, and thy years shall have no end.  Revelation 1:4, 8.  John to the seven churches which are in Asia: Grace be unto you, and peace, from him which is, and which was, and which is to come; and from the seven Spirits which are before his throne.... I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the"
+      "text": "But thou, O LORD, shalt endure for ever; and thy remembrance unto all generations.... I said, O my God, take me not away in the midst of my days: thy years are throughout all generations. Of old hast thou laid the foundation of the earth: and the heavens are the work of thy hands. They shall perish, but thou shalt endure: yea, all of them shall wax old like a garment; as a vesture shalt thou change them, and they shall be changed: But thou art the same, and thy years shall have no end."
     },
     {
-      "reference": "Almighty",
-      "text": ""
+      "reference": "Revelation 1:4, 8",
+      "text": "John to the seven churches which are in Asia: Grace be unto you, and peace, from him which is, and which was, and which is to come; and from the seven Spirits which are before his throne.... I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty."
     }
   ],
   "10": [
@@ -227,7 +211,7 @@
       "text": "For I am the LORD, I change not; therefore ye sons of Jacob are not consumed."
     },
     {
-      "reference": "Hebrews 1:12",
+      "reference": "Hebrews 1:12. ",
       "text": "And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail."
     },
     {
@@ -239,7 +223,7 @@
       "text": "Jesus Christ the same yesterday, and to day, and for ever."
     },
     {
-      "reference": "James 1:17",
+      "reference": "James 1:17. ",
       "text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning."
     }
   ],
@@ -253,16 +237,12 @@
       "text": "Wherefore should the heathen say, Where is now their God? But our God is in the heavens: he hath done whatsoever he hath pleased."
     },
     {
-      "reference": "1 Timothy 1:17",
-      "text": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever."
-    },
-    {
-      "reference": "Amen",
-      "text": ""
+      "reference": "1 Timothy 1:17. ",
+      "text": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen."
     },
     {
       "reference": "1 Timothy 6:15-16",
-      "text": "Which in his times he shall show, who is the blessed and only Potentate, the (4) King of kings, and Lord of lords; Who only hath immortality, dwelling in the light which no man can approach unto; whom no man hath seen, nor can see: to whom be honour and power everlasting. Amen."
+      "text": "Which in his times he shall show, who is the blessed and only Potentate, the"
     }
   ],
   "12": [
@@ -382,7 +362,7 @@
     },
     {
       "reference": "Hebrews 6:18",
-      "text": "That by two immutable things, in which it was (5) impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us."
+      "text": "That by two immutable things, in which it was"
     }
   ],
   "18": [
@@ -410,10 +390,10 @@
     },
     {
       "reference": "John 17:3",
-      "text": "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.  1"
+      "text": "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent."
     },
     {
-      "reference": "Thessalonians 1:9",
+      "reference": "1 Thessalonians 1:9",
       "text": "For they themselves show of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God;"
     },
     {
@@ -427,7 +407,7 @@
       "text": "And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him: And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased."
     },
     {
-      "reference": "Matthew 28:19",
+      "reference": "Matthew 28:19. ",
       "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:"
     },
     {
@@ -442,7 +422,11 @@
   "21": [
     {
       "reference": "Psalm 45:6",
-      "text": "Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a right sceptre.  John 1:1.  In the beginning was the Word, and the Word was with God, and the Word was God."
+      "text": "Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a right sceptre."
+    },
+    {
+      "reference": "John 1:1",
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
     },
     {
       "reference": "John 17:5",
@@ -480,7 +464,7 @@
     },
     {
       "reference": "Ephesians 1:11-12",
-      "text": "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will: That we should be to the praise of his glory, who first trusted in Christ. (6)"
+      "text": "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will: That we should be to the praise of his glory, who first trusted in Christ."
     }
   ],
   "23": [
@@ -490,7 +474,11 @@
     },
     {
       "reference": "Isaiah 40:26",
-      "text": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth.  Daniel 4:35.  And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?"
+      "text": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth."
+    },
+    {
+      "reference": "Daniel 4:35",
+      "text": "And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?"
     },
     {
       "reference": "Acts 4:24-28",
@@ -558,7 +546,7 @@
   "31": [
     {
       "reference": "Psalm 104:24",
-      "text": "O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches. (7)"
+      "text": "O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches."
     }
   ],
   "32": [
@@ -606,7 +594,11 @@
   "37": [
     {
       "reference": "Genesis 3:6-8, 13",
-      "text": "And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons. And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.... And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.  2 Corinthians 11:3.  But I fear, lest by any means, as the serpent beguiled Eve through his subtlety, so your minds should be corrupted from the simplicity that is in Christ."
+      "text": "And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons. And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.... And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat."
+    },
+    {
+      "reference": "2 Corinthians 11:3",
+      "text": "But I fear, lest by any means, as the serpent beguiled Eve through his subtlety, so your minds should be corrupted from the simplicity that is in Christ."
     }
   ],
   "38": [
@@ -615,7 +607,7 @@
       "text": "And if a soul sin, and commit any of these things which are forbidden to be done by the commandments of the LORD; though he wist it not, yet is he guilty, and shall bear his iniquity."
     },
     {
-      "reference": "James 4:17",
+      "reference": "James 4:17. ",
       "text": "Therefore to him that knoweth to do good, and doeth it not, to him it is sin."
     },
     {
@@ -642,7 +634,7 @@
   "41": [
     {
       "reference": "Romans 5:12-21",
-      "text": "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned: (For until the law sin was in the world: but sin is not imputed (8) when there is no law. Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam's transgression, who is the figure of him that was to come. But not as the offence, so also is the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, which is by one man, Jesus Christ, hath abounded unto many. And not as it was by one that sinned, so is the gift: for the judgment was by one to condemnation, but the free gift is of many offences unto justification. For if by one man's offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.) Therefore as by the offence of one judgment came upon all men to condemnation; even so by the righteousness of one the free gift came upon all men unto justification of life. For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous. Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound: That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.  1 Corinthians 15:22.  For as in Adam all die, even so in Christ shall all be made alive."
+      "text": "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned: (For until the law sin was in the world: but sin is not imputed"
     }
   ],
   "42": [
@@ -720,15 +712,7 @@
     },
     {
       "reference": "Romans 3:10-18, 23",
-      "text": "As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God. They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one. Their throat is an open sepulchre; (9) with their tongues they have used deceit; the poison of asps is under their lips: Whose mouth is full of cursing and bitterness: Their feet are swift to shed blood: Destruction and misery are in their ways: And the way of peace have they not known: There is no fear of God before their eyes.... For all have sinned, and come short of the glory of God;"
-    },
-    {
-      "reference": "Galatians 5:19-21",
-      "text": "Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness, Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies, Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God."
-    },
-    {
-      "reference": "James 1:14-15",
-      "text": "But every man is tempted, when he is drawn away of his own lust, and enticed. Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death."
+      "text": "As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God. They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one. Their throat is an open sepulchre;"
     }
   ],
   "47": [
@@ -759,7 +743,7 @@
       "text": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;"
     },
     {
-      "reference": "Ephesians 2:3",
+      "reference": "Ephesians 2:3. ",
       "text": "Among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others."
     },
     {
@@ -770,7 +754,11 @@
   "49": [
     {
       "reference": "Galatians 3:10",
-      "text": "For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them.  Revelation 22:3.  And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him."
+      "text": "For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them."
+    },
+    {
+      "reference": "Revelation 22:3",
+      "text": "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him."
     }
   ],
   "50": [
@@ -788,7 +776,7 @@
     },
     {
       "reference": "Romans 8:18-23",
-      "text": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us. For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who hath subjected the same in hope, Because the (10) creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our body."
+      "text": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us. For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who hath subjected the same in hope, Because the"
     }
   ],
   "51": [
@@ -830,11 +818,7 @@
     },
     {
       "reference": "2 Thessalonians 2:13-14",
-      "text": "But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth: Whereunto he called you by our gospel, to the obtaining of the glory of our Lord"
-    },
-    {
-      "reference": "Jesus Christ",
-      "text": ""
+      "text": "But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth: Whereunto he called you by our gospel, to the obtaining of the glory of our Lord Jesus Christ."
     }
   ],
   "54": [
@@ -864,7 +848,7 @@
     },
     {
       "reference": "Hebrews 9:15",
-      "text": "And for this cause he is the mediator of the new testament, that by means of death, for the redemption of the transgressions that were under the first testament, they which are called might receive the promise of eternal inheritance. (11)"
+      "text": "And for this cause he is the mediator of the new testament, that by means of death, for the redemption of the transgressions that were under the first testament, they which are called might receive the promise of eternal inheritance."
     }
   ],
   "55": [
@@ -892,7 +876,11 @@
     },
     {
       "reference": "Matthew 17:5",
-      "text": "While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him.  John 1:18.  No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him."
+      "text": "While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him."
+    },
+    {
+      "reference": "John 1:18",
+      "text": "No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him."
     }
   ],
   "57": [
@@ -968,11 +956,7 @@
     },
     {
       "reference": "Acts 3:22-23",
-      "text": "For Moses truly said unto the fathers, A (12) prophet shall the Lord your God raise up unto you of your brethren, like unto me; him shall ye hear in all things whatsoever he shall say unto you. And it shall come to pass, that every soul, which will not hear that prophet, shall be destroyed from among the people."
-    },
-    {
-      "reference": "Hebrews 1:1-2",
-      "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds"
+      "text": "For Moses truly said unto the fathers, A"
     }
   ],
   "63": [
@@ -982,11 +966,7 @@
     },
     {
       "reference": "Hebrews 5:5-6",
-      "text": "So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee. As he saith also in another place, Thou art a priest for ever after the order of"
-    },
-    {
-      "reference": "Melchisedec",
-      "text": ""
+      "text": "So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee. As he saith also in another place, Thou art a priest for ever after the order of Melchisedec."
     }
   ],
   "64": [
@@ -1048,19 +1028,7 @@
   "68": [
     {
       "reference": "Isaiah 53",
-      "text": "Who hath believed our report? and to whom is the arm of the LORD revealed? For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and (13) when we shall see him, there is no beauty that we should desire him. He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all. He was oppressed, and he was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth. He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken. And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither was any deceit in his mouth. Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand. He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities. Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death: and he was numbered with the transgressors; and he bare the sin of many, and made intercession for the transgressors."
-    },
-    {
-      "reference": "Acts 8:32-35",
-      "text": "The place of the scripture which he read was this, He was led as a sheep to the slaughter; and like a lamb dumb before his shearer, so opened he not his mouth: In his humiliation his judgment was taken away: and who shall declare his generation? for his life is taken from the earth. And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prophet this? of himself, or of some other man? Then Philip opened his mouth, and began at the same scripture, and preached unto him Jesus."
-    },
-    {
-      "reference": "Hebrews 9:26-28",
-      "text": "For then must he often have suffered since the foundation of the world: but now once in the end of the world hath he appeared to put away sin by the sacrifice of himself. And as it is appointed unto men once to die, but after this the judgment: So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation."
-    },
-    {
-      "reference": "Hebrews 10:12",
-      "text": "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God"
+      "text": "Who hath believed our report? and to whom is the arm of the LORD revealed? For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and"
     }
   ],
   "69": [
@@ -1098,11 +1066,7 @@
     },
     {
       "reference": "Matthew 28:18-20",
-      "text": "And Jesus came and spake unto them, saying, All power is given unto me in heaven and in earth. Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world."
-    },
-    {
-      "reference": "Amen",
-      "text": ""
+      "text": "And Jesus came and spake unto them, saying, All power is given unto me in heaven and in earth. Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
     },
     {
       "reference": "John 17:2",
@@ -1110,7 +1074,7 @@
     },
     {
       "reference": "Colossians 1:13",
-      "text": "Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son. (14)"
+      "text": "Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son."
     }
   ],
   "72": [
@@ -1188,10 +1152,10 @@
     },
     {
       "reference": "Isaiah 53:10",
-      "text": "Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand.  1"
+      "text": "Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand."
     },
     {
-      "reference": "John 2:2",
+      "reference": "1 John 2:2",
       "text": "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world."
     }
   ],
@@ -1218,7 +1182,7 @@
   "79": [
     {
       "reference": "1 Corinthians 15:4",
-      "text": "And that he was buried, and that he rose again the third day according to the scriptures. (15)"
+      "text": "And that he was buried, and that he rose again the third day according to the scriptures."
     }
   ],
   "80": [
@@ -1245,7 +1209,7 @@
       "text": "Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear. For David is not ascended into the heavens: but he saith himself, The Lord said unto my Lord, Sit thou on my right hand,"
     },
     {
-      "reference": "Hebrews 1:3",
+      "reference": "Hebrews 1:3. ",
       "text": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high"
     }
   ],
@@ -1271,12 +1235,8 @@
       "text": "So then faith cometh by hearing, and hearing by the word of God."
     },
     {
-      "reference": "1 Corinthians 2:12-16",
-      "text": "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God. Which things also we speak, not in the words which man's wisdom teacheth, but which the Holy Ghost teacheth; comparing spiritual things with spiritual. But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned. But he that is spiritual judgeth all things, yet he himself is judged of no man. For who hath known the mind of the Lord, that he may instruct him? But we have the mind of"
-    },
-    {
-      "reference": "Christ",
-      "text": ""
+      "reference": "1 Corinthians 2:12-16. ",
+      "text": "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God. Which things also we speak, not in the words which man's wisdom teacheth, but which the Holy Ghost teacheth; comparing spiritual things with spiritual. But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned. But he that is spiritual judgeth all things, yet he himself is judged of no man. For who hath known the mind of the Lord, that he may instruct him? But we have the mind of Christ."
     },
     {
       "reference": "Ephesians 2:8",
@@ -1316,7 +1276,7 @@
     },
     {
       "reference": "Ephesians 1:17-18",
-      "text": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of (16) him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling, and what the riches of the glory of his inheritance in the saints"
+      "text": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of"
     }
   ],
   "87": [
@@ -1330,7 +1290,11 @@
     },
     {
       "reference": "John 3:5",
-      "text": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.  Titus 3:5.  Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost"
+      "text": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God."
+    },
+    {
+      "reference": "Titus 3:5",
+      "text": "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost"
     }
   ],
   "88": [
@@ -1364,10 +1328,10 @@
     },
     {
       "reference": "1 Corinthians 1:30",
-      "text": "But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:  1"
+      "text": "But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:"
     },
     {
-      "reference": "Corinthians 6:11",
+      "reference": "1 Corinthians 6:11",
       "text": "And such were some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God."
     },
     {
@@ -1404,7 +1368,7 @@
     },
     {
       "reference": "Romans 5:19",
-      "text": "For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous. (17)"
+      "text": "For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous."
     }
   ],
   "95": [
@@ -1447,7 +1411,7 @@
       "text": "And be renewed in the spirit of your mind; And that ye put on the new man, which after God is created in righteousness and true holiness."
     },
     {
-      "reference": "1 Thessalonians 5:23",
+      "reference": "1 Thessalonians 5:23. ",
       "text": "And the very God of peace sanctify you wholly; and I pray God your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ."
     }
   ],
@@ -1490,7 +1454,7 @@
   "103": [
     {
       "reference": "2 Peter 3:18",
-      "text": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen. (18)"
+      "text": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen."
     }
   ],
   "104": [
@@ -1512,10 +1476,10 @@
   "106": [
     {
       "reference": "Luke 23:43",
-      "text": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.  2"
+      "text": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise."
     },
     {
-      "reference": "Corinthians 5:6, 8",
+      "reference": "2 Corinthians 5:6, 8",
       "text": "Therefore we are always confident, knowing that, whilst we are at home in the body, we are absent from the Lord.... We are confident, I say, and willing rather to be absent from the body, and to be present with the Lord."
     },
     {
@@ -1592,11 +1556,7 @@
   "114": [
     {
       "reference": "Romans 2:14-15",
-      "text": "For when the Gentiles, which have not the law, do by nature the things contained in the law, these, having not the law, are a law unto themselves: Which show the work of the law written in their (19) hearts, their conscience also bearing witness, and their thoughts the mean while accusing or else excusing one another;)"
-    },
-    {
-      "reference": "Romans 10:5",
-      "text": "For Moses describeth the righteousness which is of the law, That the man which doeth those things shall live by them."
+      "text": "For when the Gentiles, which have not the law, do by nature the things contained in the law, these, having not the law, are a law unto themselves: Which show the work of the law written in their"
     }
   ],
   "115": [
@@ -1662,7 +1622,7 @@
   "121": [
     {
       "reference": "Psalm 14:1",
-      "text": "The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good. (20)"
+      "text": "The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good."
     }
   ],
   "122": [
@@ -1690,7 +1650,11 @@
   "125": [
     {
       "reference": "Deuteronomy 30:17-18",
-      "text": "But if thine heart turn away, so that thou wilt not hear, but shalt be drawn away, and worship other gods, and serve them; I denounce unto you this day, that ye shall surely perish, and that ye shall not prolong your days upon the land, whither thou passest over Jordan to go to possess it.  Psalm 44:20- 21.  If we have forgotten the name of our God, or stretched out our hands to a strange god; Shall not God search this out? for he knoweth the secrets of the heart."
+      "text": "But if thine heart turn away, so that thou wilt not hear, but shalt be drawn away, and worship other gods, and serve them; I denounce unto you this day, that ye shall surely perish, and that ye shall not prolong your days upon the land, whither thou passest over Jordan to go to possess it."
+    },
+    {
+      "reference": "Psalm 44:20- 21",
+      "text": "If we have forgotten the name of our God, or stretched out our hands to a strange god; Shall not God search this out? for he knoweth the secrets of the heart."
     },
     {
       "reference": "Ezekiel 8:12",
@@ -1724,13 +1688,17 @@
     },
     {
       "reference": "Romans 1:22-23",
-      "text": "Professing themselves to be wise, they became fools, And (21) changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things."
+      "text": "Professing themselves to be wise, they became fools, And"
     }
   ],
   "129": [
     {
       "reference": "Leviticus 10:1-2",
-      "text": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not. And there went out fire from the LORD, and devoured them, and they died before the LORD.  Jeremiah 19:4-5.  Because they have forsaken me, and have estranged this place, and have burned incense in it unto other gods, whom neither they nor their fathers have known, nor the kings of Judah, and have filled this place with the blood of innocents; They have built also the high places of Baal, to burn their sons with fire for burnt offerings unto Baal, which I commanded not, nor spake it, neither came it into my mind:"
+      "text": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not. And there went out fire from the LORD, and devoured them, and they died before the LORD."
+    },
+    {
+      "reference": "Jeremiah 19:4-5",
+      "text": "Because they have forsaken me, and have estranged this place, and have burned incense in it unto other gods, whom neither they nor their fathers have known, nor the kings of Judah, and have filled this place with the blood of innocents; They have built also the high places of Baal, to burn their sons with fire for burnt offerings unto Baal, which I commanded not, nor spake it, neither came it into my mind:"
     },
     {
       "reference": "Colossians 2:18-23",
@@ -1798,7 +1766,7 @@
   "135": [
     {
       "reference": "1 Chronicles 29:10-13",
-      "text": "Wherefore David blessed the LORD before all the congregation: and David said, Blessed be thou, LORD God of Israel our father, for ever and ever. Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all. Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to (22) give strength unto all. Now therefore, our God, we thank thee, and praise thy glorious name.  Revelation 15:3-4.  And they sing the song of Moses the servant of God, and the song of the Lamb, saying, Great and marvellous are thy works, Lord God Almighty; just and true are thy ways, thou King of saints. Who shall not fear thee, O Lord, and glorify thy name? for thou only art holy: for all nations shall come and worship before thee; for thy judgments are made manifest."
+      "text": "Wherefore David blessed the LORD before all the congregation: and David said, Blessed be thou, LORD God of Israel our father, for ever and ever. Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all. Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to"
     }
   ],
   "136": [
@@ -1852,10 +1820,10 @@
     },
     {
       "reference": "1 Samuel 3:13",
-      "text": "For I have told him that I will judge his house for ever for the iniquity which he knoweth; because his sons made themselves vile, and he restrained them not.  1"
+      "text": "For I have told him that I will judge his house for ever for the iniquity which he knoweth; because his sons made themselves vile, and he restrained them not."
     },
     {
-      "reference": "Samuel 4:11",
+      "reference": "1 Samuel 4:11",
       "text": "And the ark of God was taken; and the two sons of Eli, Hophni and Phinehas, were slain."
     }
   ],
@@ -1866,7 +1834,7 @@
     },
     {
       "reference": "Deuteronomy 5:12-15",
-      "text": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee. Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou. And remember that thou wast a servant in the land of Egypt, and that the LORD thy God (23) brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day."
+      "text": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee. Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou. And remember that thou wast a servant in the land of Egypt, and that the LORD thy God"
     }
   ],
   "142": [
@@ -1932,7 +1900,7 @@
     },
     {
       "reference": "Acts 20:7",
-      "text": "(24) And upon the first day of the week, when the disciples came together to break bread, Paul preached unto them, ready to depart on the morrow; and continued his speech until midnight."
+      "text": ""
     }
   ],
   "147": [
@@ -1966,7 +1934,7 @@
     },
     {
       "reference": "Leviticus 23:3",
-      "text": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the LORD in all your dwellings. (25)"
+      "text": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the LORD in all your dwellings."
     }
   ],
   "150": [
@@ -2062,7 +2030,7 @@
     },
     {
       "reference": "1 John 3:15",
-      "text": "Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him. (26)"
+      "text": "Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him."
     }
   ],
   "158": [
@@ -2078,10 +2046,10 @@
   "159": [
     {
       "reference": "1 Corinthians 7:2-3, 5",
-      "text": "Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband. Let the husband render unto the wife due benevolence: and likewise also the wife unto the husband.... Defraud ye not one the other, except it be with consent for a time, that ye may give yourselves to fasting and prayer; and come together again, that Satan tempt you not for your incontinency.  1"
+      "text": "Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband. Let the husband render unto the wife due benevolence: and likewise also the wife unto the husband.... Defraud ye not one the other, except it be with consent for a time, that ye may give yourselves to fasting and prayer; and come together again, that Satan tempt you not for your incontinency."
     },
     {
-      "reference": "Thessalonians 4:3-5",
+      "reference": "1 Thessalonians 4:3-5",
       "text": "For this is the will of God, even your sanctification, that ye should abstain from fornication: That every one of you should know how to possess his vessel in sanctification and honour; Not in the lust of concupiscence, even as the Gentiles which know not God."
     }
   ],
@@ -2108,7 +2076,11 @@
   "162": [
     {
       "reference": "Leviticus 25:35",
-      "text": "And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: yea, though he be a stranger, or a sojourner; that he may live with thee.  Ephesians 4:28b.  But rather let him labour, working with his hands the thing which is good, that he may have to give to him that needeth."
+      "text": "And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: yea, though he be a stranger, or a sojourner; that he may live with thee."
+    },
+    {
+      "reference": "Ephesians 4:28b",
+      "text": "But rather let him labour, working with his hands the thing which is good, that he may have to give to him that needeth."
     },
     {
       "reference": "Philippians 2:4",
@@ -2117,8 +2089,20 @@
   ],
   "163": [
     {
+      "reference": "Proverbs 28:19 ff",
+      "text": "He that tilleth his land shall have plenty of bread: but he that followeth after vain persons shall have poverty enough. A faithful man shall abound with blessings: but he that maketh haste to be rich shall not be innocent.... He that hasteth to be rich hath an evil eye, and considereth not that poverty shall come upon him.... Whoso robbeth his father or his mother, and saith, It is no transgression; the same is the companion of a destroyer.... He that giveth unto the poor shall not lack: but he that hideth his eyes shall have many a curse."
+    },
+    {
+      "reference": "Ephesians 4:28a",
+      "text": "Let him that stole steal no more."
+    },
+    {
       "reference": "2 Thessalonians 3:10",
-      "text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat.  1 Timothy 5:8.  But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel."
+      "text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat."
+    },
+    {
+      "reference": "1 Timothy 5:8",
+      "text": "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel."
     }
   ],
   "164": [
@@ -2138,10 +2122,10 @@
     },
     {
       "reference": "Acts 25:10",
-      "text": "Then said Paul, I stand at Caesar's judgment seat, where I ought to be judged: to the Jews have I done no wrong, as thou very well knowest.  3"
+      "text": "Then said Paul, I stand at Caesar's judgment seat, where I ought to be judged: to the Jews have I done no wrong, as thou very well knowest."
     },
     {
-      "reference": "John 12",
+      "reference": "3 John 12",
       "text": "Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record; and ye know that our record is true."
     }
   ],
@@ -2161,12 +2145,8 @@
       "text": "He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour."
     },
     {
-      "reference": "Proverbs 6:16-19",
-      "text": "These six things doth the LORD hate: yea, seven are an abomination unto him: A proud look, a lying tongue, and hands that shed innocent blood, An heart that deviseth wicked imaginations, feet that be swift in running (27) to mischief, A false witness that speaketh lies, and he that soweth discord among brethren."
-    },
-    {
-      "reference": "Luke 3:14",
-      "text": "And the soldiers likewise demanded of him, saying, And what shall we do? And he said unto them, Do violence to no man, neither accuse any falsely; and be content with your wages."
+      "reference": "Proverbs 6:16-19. ",
+      "text": "These six things doth the LORD hate: yea, seven are an abomination unto him: A proud look, a lying tongue, and hands that shed innocent blood, An heart that deviseth wicked imaginations, feet that be swift in running"
     }
   ],
   "168": [
@@ -2182,7 +2162,11 @@
   "169": [
     {
       "reference": "Psalm 34:1",
-      "text": "I will bless the LORD at all times: his praise shall continually be in my mouth.  Philippians 4:11.  Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content."
+      "text": "I will bless the LORD at all times: his praise shall continually be in my mouth."
+    },
+    {
+      "reference": "Philippians 4:11",
+      "text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content."
     },
     {
       "reference": "1 Timothy 6:6",
@@ -2214,7 +2198,7 @@
     },
     {
       "reference": "James 3:14-16",
-      "text": "But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work. (28)"
+      "text": "But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work."
     }
   ],
   "172": [
@@ -2230,7 +2214,11 @@
   "173": [
     {
       "reference": "Genesis 8:21",
-      "text": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.  Romans 3:9 ff., 23.  What then? are we better than they? No, in no wise: for we have before proved both Jews and Gentiles, that they are all under sin; As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God. They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one. Their throat is an open sepulchre; with their tongues they have used deceit; the poison of asps is under their lips: Whose mouth is full of cursing and bitterness: Their feet are swift to shed blood: Destruction and misery are in their ways: And the way of peace have they not known: There is no fear of God before their eyes.... For all have sinned, and come short of the glory of God"
+      "text": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done."
+    },
+    {
+      "reference": "Romans 3:9 ff., 23",
+      "text": "What then? are we better than they? No, in no wise: for we have before proved both Jews and Gentiles, that they are all under sin; As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God. They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one. Their throat is an open sepulchre; with their tongues they have used deceit; the poison of asps is under their lips: Whose mouth is full of cursing and bitterness: Their feet are swift to shed blood: Destruction and misery are in their ways: And the way of peace have they not known: There is no fear of God before their eyes.... For all have sinned, and come short of the glory of God"
     }
   ],
   "174": [
@@ -2281,14 +2269,22 @@
       "text": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost."
     },
     {
-      "reference": "1 Corinthians 11:24-25",
-      "text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me. After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me.  Colossians 3:16.  Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord. (29)"
+      "reference": "1 Corinthians 11:24-25. ",
+      "text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me. After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me."
+    },
+    {
+      "reference": "Colossians 3:16",
+      "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord."
     }
   ],
   "178": [
     {
       "reference": "Ephesians 2:8-9",
-      "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast.  Cf. Romans 4:16.  Therefore it is of faith, that it might be by grace; to the end the promise might be sure to all the seed; not to that only which is of the law, but to that also which is of the faith of Abraham; who is the father of us all"
+      "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast."
+    },
+    {
+      "reference": "Cf. Romans 4:16",
+      "text": "Therefore it is of faith, that it might be by grace; to the end the promise might be sure to all the seed; not to that only which is of the law, but to that also which is of the faith of Abraham; who is the father of us all"
     }
   ],
   "179": [
@@ -2339,12 +2335,12 @@
       "text": "I have surely heard Ephraim bemoaning himself thus; Thou hast chastised me, and I was chastised, as a bullock unaccustomed to the yoke: turn thou me, and I shall be turned; for thou art the LORD my God. Surely after that I was turned, I repented; and after that I was instructed, I smote upon my thigh: I was ashamed, yea, even confounded, because I did bear the reproach of my youth."
     },
     {
-      "reference": "Luke 1:16-17",
+      "reference": "Luke 1:16-17. ",
       "text": "And many of the children of Israel shall he turn to the Lord their God. And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord."
     },
     {
       "reference": "1 Thessalonians 1:9",
-      "text": "For they themselves show of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God (30)"
+      "text": "For they themselves show of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God"
     }
   ],
   "183": [
@@ -2395,24 +2391,44 @@
   ],
   "186": [
     {
+      "reference": "Deuteronomy 6:16 ff",
+      "text": "Ye shall not tempt the LORD your God, as ye tempted him in Massah. Ye shall diligently keep the commandments of the LORD your God, and his testimonies, and his statutes, which he hath commanded thee. And thou shalt do that which is right and good in the sight of the LORD: that it may be well with thee, and that thou mayest go in and possess the good land which the LORD sware unto thy fathers,"
+    },
+    {
       "reference": "Psalm 119:18",
-      "text": "Open thou mine eyes, that I may behold wondrous things out of thy law.  1 Peter 2:1- 2.  Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings, As newborn babes, desire the sincere milk of the word, that ye may grow thereby."
+      "text": "Open thou mine eyes, that I may behold wondrous things out of thy law."
+    },
+    {
+      "reference": "1 Peter 2:1- 2",
+      "text": "Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings, As newborn babes, desire the sincere milk of the word, that ye may grow thereby."
     }
   ],
   "187": [
     {
       "reference": "Psalm 119:11",
-      "text": "Thy word have I hid in mine heart, that I might not sin against thee.  2 Thessalonians 2:10.  And with all deceivableness of unrighteousness in them that perish; because they received not the love of the truth, that they might be saved."
+      "text": "Thy word have I hid in mine heart, that I might not sin against thee."
+    },
+    {
+      "reference": "2 Thessalonians 2:10",
+      "text": "And with all deceivableness of unrighteousness in them that perish; because they received not the love of the truth, that they might be saved."
     },
     {
       "reference": "Hebrews 4:2",
-      "text": "For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it.  James 1:22-25.  But be ye doers of the word, and not hearers only, deceiving your own selves. For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass: For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was. But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed. (31)"
+      "text": "For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it."
+    },
+    {
+      "reference": "James 1:22-25",
+      "text": "But be ye doers of the word, and not hearers only, deceiving your own selves. For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass: For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was. But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed."
     }
   ],
   "188": [
     {
       "reference": "1 Corinthians 3:7",
-      "text": "So then neither is he that planteth any thing, neither he that watereth; but God that giveth the increase.  Cf. 1 Corinthians 1:12-17.  Now this I say, that every one of you saith, I am of Paul; and I of Apollos; and I of Cephas; and I of Christ. Is Christ divided? was Paul crucified for you? or were ye baptized in the name of Paul? I thank God that I baptized none of you, but Crispus and Gaius; Lest any should say that I had baptized in mine own name. And I baptized also the household of Stephanas: besides, I know not whether I baptized any other. For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect."
+      "text": "So then neither is he that planteth any thing, neither he that watereth; but God that giveth the increase."
+    },
+    {
+      "reference": "Cf. 1 Corinthians 1:12-17",
+      "text": "Now this I say, that every one of you saith, I am of Paul; and I of Apollos; and I of Cephas; and I of Christ. Is Christ divided? was Paul crucified for you? or were ye baptized in the name of Paul? I thank God that I baptized none of you, but Crispus and Gaius; Lest any should say that I had baptized in mine own name. And I baptized also the household of Stephanas: besides, I know not whether I baptized any other. For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect."
     }
   ],
   "189": [
@@ -2440,7 +2456,11 @@
   "190": [
     {
       "reference": "Galatians 3:27",
-      "text": "For as many of you as have been baptized into Christ have put on Christ.  1 Corinthians 10:16-17.  The cup of blessing which we bless, is it not the communion of the blood of Christ? The bread which we break, is it not the communion of the body of Christ? For we being many are one bread, and one body: for we are all partakers of that one bread."
+      "text": "For as many of you as have been baptized into Christ have put on Christ."
+    },
+    {
+      "reference": "1 Corinthians 10:16-17",
+      "text": "The cup of blessing which we bless, is it not the communion of the blood of Christ? The bread which we break, is it not the communion of the body of Christ? For we being many are one bread, and one body: for we are all partakers of that one bread."
     }
   ],
   "191": [
@@ -2464,19 +2484,7 @@
   "194": [
     {
       "reference": "Acts 2:38-42",
-      "text": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call. And with many other words did he testify and exhort, saying, Save yourselves from this untoward generation. Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand (32) souls. And they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers."
-    },
-    {
-      "reference": "Acts 22:16",
-      "text": "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord."
-    },
-    {
-      "reference": "Romans 6:3-4",
-      "text": "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.  Galatians 3:26-27.  For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ."
-    },
-    {
-      "reference": "1 Peter 3:21",
-      "text": "The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ."
+      "text": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call. And with many other words did he testify and exhort, saying, Save yourselves from this untoward generation. Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand"
     }
   ],
   "195": [
@@ -2499,7 +2507,7 @@
       "text": "And I will establish my covenant between me and thee and thy seed after thee in their generations for an everlasting covenant, to be a God unto thee, and to thy seed after thee."
     },
     {
-      "reference": "Genesis 17:9-11",
+      "reference": "Genesis 17:9-11. ",
       "text": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations. This is my covenant, which ye shall keep, between me and you and thy seed after thee; Every man child among you shall be circumcised. And ye shall circumcise the flesh of your foreskin; and it shall be a token of the covenant betwixt me and you."
     },
     {
@@ -2534,7 +2542,7 @@
   "199": [
     {
       "reference": "1 Corinthians 11:27-32",
-      "text": "Wherefore whosoever shall eat this bread, and drink this cup of the Lord, unworthily, shall be guilty of the body and blood of the Lord. But let a man examine himself, and so let him eat of that bread, and drink of that cup. For he that eateth and drinketh unworthily, eateth and drinketh (33) damnation to himself, not discerning the Lord's body. For this cause many are weak and sickly among you, and many sleep. For if we would judge ourselves, we should not be judged. But when we are judged, we are chastened of the Lord, that we should not be condemned with the world."
+      "text": "Wherefore whosoever shall eat this bread, and drink this cup of the Lord, unworthily, shall be guilty of the body and blood of the Lord. But let a man examine himself, and so let him eat of that bread, and drink of that cup. For he that eateth and drinketh unworthily, eateth and drinketh"
     }
   ],
   "200": [
@@ -2574,7 +2582,7 @@
     },
     {
       "reference": "1 John 1:9",
-      "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness. (34)"
+      "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
     }
   ],
   "204": [
@@ -2583,7 +2591,7 @@
       "text": "Bless the LORD, O my soul: and all that is within me, bless his holy name. Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases; Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies; Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle's."
     },
     {
-      "reference": "Psalm 136",
+      "reference": "Psalm 136. ",
       "text": "O give thanks unto the LORD; for he is good: for his mercy endureth for ever. O give thanks unto the God of gods: for his mercy endureth for ever. O give thanks to the Lord of lords: for his mercy endureth for ever. To him who alone doeth great wonders: for his mercy endureth for ever. To him that by wisdom made the heavens: for his mercy endureth for ever. To him that stretched out the earth above the waters: for his mercy endureth for ever. To him that made great lights: for his mercy endureth for ever: The sun to rule by day: for his mercy endureth for ever: The moon and stars to rule by night: for his mercy endureth for ever. To him that smote Egypt in their firstborn: for his mercy endureth for ever: And brought out Israel from among them: for his mercy endureth for ever: With a strong hand, and with a stretched out arm: for his mercy endureth for ever. To him which divided the Red sea into parts: for his mercy endureth for ever: And made Israel to pass through the midst of it: for his mercy endureth for ever: But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever. To him which led his people through the wilderness: for his mercy endureth for ever. To him which smote great kings: for his mercy endureth for ever: And slew famous kings: for his mercy endureth for ever: Sihon king of the Amorites: for his mercy endureth for ever: And Og the king of Bashan: for his mercy endureth for ever: And gave their land for an heritage: for his mercy endureth for ever: Even an heritage unto Israel his servant: for his mercy endureth for ever. Who remembered us in our low estate: for his mercy endureth for ever: And hath redeemed us from our enemies: for his mercy endureth for ever. {25} Who giveth food to all flesh: for his mercy endureth for ever. {26} O give thanks unto the God of heaven: for his mercy endureth for ever."
     },
     {
@@ -2621,11 +2629,7 @@
       "text": "Or what man is there of you, whom if his son ask bread, will he give him a stone? Or if he ask a fish, will he give him a serpent? If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?"
     },
     {
-      "reference": "Cf",
-      "text": ""
-    },
-    {
-      "reference": "Luke 11:11-13",
+      "reference": "Cf. Luke 11:11-13",
       "text": "If a son shall ask bread of any of you that is a father, will he give him a stone? or if he ask a fish, will he for a fish give him a serpent? Or if he shall ask an egg, will he offer him a scorpion? If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Father give the Holy Spirit to them that ask him?"
     },
     {
@@ -2636,7 +2640,7 @@
   "210": [
     {
       "reference": "Ephesians 3:20",
-      "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us (35)"
+      "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us"
     }
   ],
   "211": [
@@ -2656,7 +2660,11 @@
     },
     {
       "reference": "Psalm 99:3",
-      "text": "Let them praise thy great and terrible name; for it is holy.  Psalm 100:3- 4.  Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture. Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name."
+      "text": "Let them praise thy great and terrible name; for it is holy."
+    },
+    {
+      "reference": "Psalm 100:3- 4",
+      "text": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture. Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name."
     }
   ],
   "213": [
@@ -2665,7 +2673,7 @@
       "text": "O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out! For who hath known the mind of the Lord? or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of him, and through him, and to him, are all things: to whom be glory for ever. Amen."
     },
     {
-      "reference": "Revelation 4:11",
+      "reference": "Revelation 4:11. ",
       "text": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created."
     }
   ],
@@ -2690,7 +2698,11 @@
     },
     {
       "reference": "Matthew 24:14",
-      "text": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come.  1 Corinthians 15:24-25.  Then cometh the end, when he shall have delivered up the kingdom to God, even the Father; when he shall have put down all rule and all authority and power. For he must reign, till he hath put all enemies under his feet."
+      "text": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come."
+    },
+    {
+      "reference": "1 Corinthians 15:24-25",
+      "text": "Then cometh the end, when he shall have delivered up the kingdom to God, even the Father; when he shall have put down all rule and all authority and power. For he must reign, till he hath put all enemies under his feet."
     }
   ],
   "216": [
@@ -2710,11 +2722,7 @@
   "217": [
     {
       "reference": "Revelation 22:20",
-      "text": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come,"
-    },
-    {
-      "reference": "Lord Jesus",
-      "text": "(36)"
+      "text": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus."
     }
   ],
   "218": [
@@ -2724,7 +2732,7 @@
     },
     {
       "reference": "Psalm 119",
-      "text": "Blessed are the undefiled in the way, who walk in the law of the LORD. Blessed are they that keep his testimonies, and that seek him with the whole heart. They also do no iniquity: they walk in his ways. Thou hast commanded us to keep thy precepts diligently. O that my ways were directed to keep thy statutes! Then shall I not be ashamed, when I have respect unto all thy commandments. I will praise thee with uprightness of heart, when I shall have learned thy righteous judgments. I will keep thy statutes: O forsake me not utterly,  etc."
+      "text": "Blessed are the undefiled in the way, who walk in the law of the LORD. Blessed are they that keep his testimonies, and that seek him with the whole heart. They also do no iniquity: they walk in his ways. Thou hast commanded us to keep thy precepts diligently. O that my ways were directed to keep thy statutes! Then shall I not be ashamed, when I have respect unto all thy commandments. I will praise thee with uprightness of heart, when I shall have learned thy righteous judgments. I will keep thy statutes: O forsake me not utterly, etc."
     },
     {
       "reference": "1 Thessalonians 5:23",
@@ -2756,11 +2764,7 @@
     },
     {
       "reference": "Philippians 4:11, 19",
-      "text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.... But my God shall supply all your need according to his riches in glory by Christ"
-    },
-    {
-      "reference": "Jesus",
-      "text": ""
+      "text": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.... But my God shall supply all your need according to his riches in glory by Christ Jesus."
     },
     {
       "reference": "1 Timothy 6:6-8",
@@ -2784,11 +2788,7 @@
   "222": [
     {
       "reference": "Matthew 18:21-35",
-      "text": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times? Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven. Therefore is the kingdom of heaven likened unto a certain king, which would take account of his servants. And when he had begun to reckon, one was brought unto him, which owed him ten thousand talents. But forasmuch as he had not to pay, his lord commanded him to be sold, and his wife, and children, and all that he had, and payment to be made. The servant therefore fell down, and worshipped him, saying, Lord, have patience with me, and I will pay thee all. Then the lord of that servant was moved with compassion, and loosed him, and forgave him the debt. But the same servant went out, and found one of his (37) fellowservants, which owed him an hundred pence: and he laid hands on him, and took him by the throat, saying, Pay me that thou owest. And his fellowservant fell down at his feet, and besought him, saying, Have patience with me, and I will pay thee all. And he would not: but went and cast him into prison, till he should pay the debt. So when his fellowservants saw what was done, they were very sorry, and came and told unto their lord all that was done. Then his lord, after that he had called him, said unto him, O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee? And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him. So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses."
-    },
-    {
-      "reference": "Ephesians 4:32",
-      "text": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.  Colossians 3:13.  Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye."
+      "text": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times? Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven. Therefore is the kingdom of heaven likened unto a certain king, which would take account of his servants. And when he had begun to reckon, one was brought unto him, which owed him ten thousand talents. But forasmuch as he had not to pay, his lord commanded him to be sold, and his wife, and children, and all that he had, and payment to be made. The servant therefore fell down, and worshipped him, saying, Lord, have patience with me, and I will pay thee all. Then the lord of that servant was moved with compassion, and loosed him, and forgave him the debt. But the same servant went out, and found one of his"
     }
   ],
   "223": [
@@ -2830,13 +2830,17 @@
     },
     {
       "reference": "Luke 18:1, 7-8",
-      "text": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint.... And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them? I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth? (38)"
+      "text": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint.... And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them? I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?"
     }
   ],
   "226": [
     {
       "reference": "1 Chronicles 29:10-13",
-      "text": "Wherefore David blessed the LORD before all the congregation: and David said, Blessed be thou, LORD God of Israel our father, for ever and ever. Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all. Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to give strength unto all. Now therefore, our God, we thank thee, and praise thy glorious name.  1 Timothy 1:17.  Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen."
+      "text": "Wherefore David blessed the LORD before all the congregation: and David said, Blessed be thou, LORD God of Israel our father, for ever and ever. Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all. Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to give strength unto all. Now therefore, our God, we thank thee, and praise thy glorious name."
+    },
+    {
+      "reference": "1 Timothy 1:17",
+      "text": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen."
     },
     {
       "reference": "Revelation 5:11-13",
@@ -2846,7 +2850,11 @@
   "227": [
     {
       "reference": "1 Corinthians 14:16",
-      "text": "Else when thou shalt bless with the spirit, how shall he that occupieth the room of the unlearned say Amen at thy giving of thanks, seeing he understandeth not what thou sayest?  Revelation 22:20.  He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus."
+      "text": "Else when thou shalt bless with the spirit, how shall he that occupieth the room of the unlearned say Amen at thy giving of thanks, seeing he understandeth not what thou sayest?"
+    },
+    {
+      "reference": "Revelation 22:20",
+      "text": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus."
     }
   ]
 }
