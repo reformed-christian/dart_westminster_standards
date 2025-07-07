@@ -71,9 +71,9 @@ def add_references_to_catechism(catechism_data, references_data):
 def main():
     """Main function to process the files."""
     # File paths
-    catechism_file = Path("assets/westminster_larger_catechism_no_references.json")
-    references_file = Path("assets/westminster_larger_catechism_references.json")
-    output_file = Path("assets/westminster_larger_catechism_with_references.json")
+    catechism_file = Path("assets/catechisms/larger/westminster_larger_catechism_no_references.json")
+    references_file = Path("assets/catechisms/larger/westminster_larger_catechism_references.json")
+    output_file = Path("assets/catechisms/larger/westminster_larger_catechism_with_references.json")
     
     print("Loading catechism data...")
     catechism_data = load_json_file(catechism_file)
