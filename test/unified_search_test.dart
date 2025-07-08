@@ -14,13 +14,13 @@ void main() {
 
         // Verify results contain different document types
         final hasConfession = results.any(
-          (r) => r.documentType == WestminsterDocument.confession,
+          (r) => r.documentType == WestminsterDocumentType.confession,
         );
         final hasShorterCatechism = results.any(
-          (r) => r.documentType == WestminsterDocument.shorterCatechism,
+          (r) => r.documentType == WestminsterDocumentType.shorterCatechism,
         );
         final hasLargerCatechism = results.any(
-          (r) => r.documentType == WestminsterDocument.largerCatechism,
+          (r) => r.documentType == WestminsterDocumentType.largerCatechism,
         );
 
         expect(
