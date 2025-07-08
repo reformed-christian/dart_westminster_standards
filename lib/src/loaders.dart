@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:flutter/services.dart';
+import 'dart:io';
 import 'models/catechism_qa.dart';
 import 'models/confession_chapter.dart';
 import 'models/proof_text.dart';
@@ -8,26 +8,27 @@ import 'models/confession_section.dart';
 
 /// Load the Westminster Confession as JSON
 Future<Map<String, dynamic>> loadWestminsterConfessionJson() async {
-  final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/confession/westminster_confession.json',
-  );
+  final file = File('assets/confession/westminster_confession.json');
+  final jsonString = await file.readAsString();
   return json.decode(jsonString) as Map<String, dynamic>;
 }
 
 /// Load the Westminster Shorter Catechism as JSON
-Future<Map<String, dynamic>> loadWestminsterShorterCatechismJson() async {
-  final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/catechisms/shorter/westminster_shorter_catechism.json',
+Future<List<dynamic>> loadWestminsterShorterCatechismJson() async {
+  final file = File(
+    'assets/catechisms/shorter/westminster_shorter_catechism.json',
   );
-  return json.decode(jsonString) as Map<String, dynamic>;
+  final jsonString = await file.readAsString();
+  return json.decode(jsonString) as List<dynamic>;
 }
 
 /// Load the Westminster Larger Catechism as JSON
-Future<Map<String, dynamic>> loadWestminsterLargerCatechismJson() async {
-  final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/catechisms/larger/westminster_larger_catechism.json',
+Future<List<dynamic>> loadWestminsterLargerCatechismJson() async {
+  final file = File(
+    'assets/catechisms/larger/westminster_larger_catechism_with_references.json',
   );
-  return json.decode(jsonString) as Map<String, dynamic>;
+  final jsonString = await file.readAsString();
+  return json.decode(jsonString) as List<dynamic>;
 }
 
 /// Load the Westminster Confession as Dart objects
@@ -76,7 +77,7 @@ Future<List<ConfessionChapter>> loadWestminsterConfession() async {
 /// Load the Westminster Shorter Catechism as Dart objects
 Future<List<CatechismItem>> loadWestminsterShorterCatechism() async {
   final json = await loadWestminsterShorterCatechismJson();
-  final questions = json['questions'] as List;
+  final questions = json as List;
 
   return questions.map((questionJson) {
     final question = questionJson as Map<String, dynamic>;
@@ -84,7 +85,7 @@ Future<List<CatechismItem>> loadWestminsterShorterCatechism() async {
         (question['clauses'] as List).map((clauseJson) {
           final clause = clauseJson as Map<String, dynamic>;
           final proofTexts =
-              (clause['proofTexts'] as List).map((proofTextJson) {
+              (clause['references'] as List).map((proofTextJson) {
                 final proofText = proofTextJson as Map<String, dynamic>;
                 return ProofText(
                   reference: proofText['reference'] as String,
@@ -95,7 +96,7 @@ Future<List<CatechismItem>> loadWestminsterShorterCatechism() async {
           return Clause(
             text: clause['text'] as String,
             proofTexts: proofTexts,
-            footnoteNum: clause['footnoteNum'] as int?,
+            footnoteNum: clause['footnote'] as int?,
           );
         }).toList();
 
@@ -111,7 +112,7 @@ Future<List<CatechismItem>> loadWestminsterShorterCatechism() async {
 /// Load the Westminster Larger Catechism as Dart objects
 Future<List<CatechismItem>> loadWestminsterLargerCatechism() async {
   final json = await loadWestminsterLargerCatechismJson();
-  final questions = json['questions'] as List;
+  final questions = json as List;
 
   return questions.map((questionJson) {
     final question = questionJson as Map<String, dynamic>;
@@ -119,7 +120,7 @@ Future<List<CatechismItem>> loadWestminsterLargerCatechism() async {
         (question['clauses'] as List).map((clauseJson) {
           final clause = clauseJson as Map<String, dynamic>;
           final proofTexts =
-              (clause['proofTexts'] as List).map((proofTextJson) {
+              (clause['references'] as List).map((proofTextJson) {
                 final proofText = proofTextJson as Map<String, dynamic>;
                 return ProofText(
                   reference: proofText['reference'] as String,
@@ -130,7 +131,7 @@ Future<List<CatechismItem>> loadWestminsterLargerCatechism() async {
           return Clause(
             text: clause['text'] as String,
             proofTexts: proofTexts,
-            footnoteNum: clause['footnoteNum'] as int?,
+            footnoteNum: clause['footnote'] as int?,
           );
         }).toList();
 
