@@ -9,7 +9,7 @@ import 'models/confession_section.dart';
 /// Load the Westminster Confession as JSON
 Future<Map<String, dynamic>> loadWestminsterConfessionJson() async {
   final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/westminster_confession.json',
+    'packages/westminster_standards/assets/confession/westminster_confession.json',
   );
   return json.decode(jsonString) as Map<String, dynamic>;
 }
@@ -17,7 +17,7 @@ Future<Map<String, dynamic>> loadWestminsterConfessionJson() async {
 /// Load the Westminster Shorter Catechism as JSON
 Future<Map<String, dynamic>> loadWestminsterShorterCatechismJson() async {
   final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/westminster_shorter_catechism.json',
+    'packages/westminster_standards/assets/catechisms/shorter/westminster_shorter_catechism.json',
   );
   return json.decode(jsonString) as Map<String, dynamic>;
 }
@@ -25,7 +25,7 @@ Future<Map<String, dynamic>> loadWestminsterShorterCatechismJson() async {
 /// Load the Westminster Larger Catechism as JSON
 Future<Map<String, dynamic>> loadWestminsterLargerCatechismJson() async {
   final jsonString = await rootBundle.loadString(
-    'packages/westminster_standards/assets/westminster_larger_catechism.json',
+    'packages/westminster_standards/assets/catechisms/larger/westminster_larger_catechism.json',
   );
   return json.decode(jsonString) as Map<String, dynamic>;
 }
