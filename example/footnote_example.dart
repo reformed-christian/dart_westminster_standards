@@ -1,4 +1,4 @@
-import 'package:westminster_standards/westminster_standards.dart';
+import 'package:dart_westminster_standards/dart_westminster_standards.dart';
 
 /// Footnote Example - Demonstrating footnote numbers in catechisms
 /// This example shows how to access and use footnote numbers in the Westminster Catechisms

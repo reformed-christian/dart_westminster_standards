@@ -1,4 +1,4 @@
-import 'package:westminster_standards/westminster_standards.dart';
+import 'package:dart_westminster_standards/dart_westminster_standards.dart';
 
 /// Example demonstrating enhanced access to Westminster Standards
 /// This shows how to use the WestminsterStandards object for convenient access

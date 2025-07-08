@@ -1,4 +1,4 @@
-import 'package:westminster_standards/westminster_standards.dart';
+import 'package:dart_westminster_standards/dart_westminster_standards.dart';
 
 /// Getting Started Example - The Simplest Way to Use Westminster Standards
 /// This example shows the absolute basics to get you started quickly
