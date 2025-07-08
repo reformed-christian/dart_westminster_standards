@@ -1,33 +1,66 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:path/path.dart' as path;
 import 'models/catechism_qa.dart';
 import 'models/confession_chapter.dart';
 import 'models/proof_text.dart';
 import 'models/clause.dart';
 import 'models/confession_section.dart';
 
+/// Try to find and load a file from multiple possible locations
+Future<String> _loadAssetFile(String relativePath) async {
+  final possiblePaths = [
+    // Current working directory (for development)
+    relativePath,
+    // Package assets directory (when installed)
+    path.join('assets', relativePath),
+    // Pub cache location
+    path.join(
+      path.dirname(Platform.script.path),
+      '..',
+      '..',
+      '..',
+      'assets',
+      relativePath,
+    ),
+  ];
+
+  for (final filePath in possiblePaths) {
+    final file = File(filePath);
+    if (await file.exists()) {
+      return await file.readAsString();
+    }
+  }
+
+  throw FileSystemException(
+    'Could not find asset file: $relativePath\n'
+    'Tried the following paths:\n${possiblePaths.map((p) => '  - $p').join('\n')}\n'
+    'Make sure the assets are properly included in the package.',
+    relativePath,
+  );
+}
+
 /// Load the Westminster Confession as JSON
 Future<Map<String, dynamic>> loadWestminsterConfessionJson() async {
-  final file = File('assets/confession/westminster_confession.json');
-  final jsonString = await file.readAsString();
+  final jsonString = await _loadAssetFile(
+    'confession/westminster_confession.json',
+  );
   return json.decode(jsonString) as Map<String, dynamic>;
 }
 
 /// Load the Westminster Shorter Catechism as JSON
 Future<List<dynamic>> loadWestminsterShorterCatechismJson() async {
-  final file = File(
-    'assets/catechisms/shorter/westminster_shorter_catechism.json',
+  final jsonString = await _loadAssetFile(
+    'catechisms/shorter/westminster_shorter_catechism.json',
   );
-  final jsonString = await file.readAsString();
   return json.decode(jsonString) as List<dynamic>;
 }
 
 /// Load the Westminster Larger Catechism as JSON
 Future<List<dynamic>> loadWestminsterLargerCatechismJson() async {
-  final file = File(
-    'assets/catechisms/larger/westminster_larger_catechism_with_references.json',
+  final jsonString = await _loadAssetFile(
+    'catechisms/larger/westminster_larger_catechism_with_references.json',
   );
-  final jsonString = await file.readAsString();
   return json.decode(jsonString) as List<dynamic>;
 }
 
