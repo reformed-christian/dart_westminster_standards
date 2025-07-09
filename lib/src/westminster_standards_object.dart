@@ -1,5 +1,8 @@
 import 'models.dart';
 import 'types.dart';
+import 'asset_loader_interface.dart';
+import 'asset_loaders.dart';
+import 'json_file_loader.dart';
 
 /// A convenient object for accessing Westminster Standards data
 ///
@@ -18,27 +21,45 @@ class WestminsterStandards {
        _shorterCatechism = shorterCatechism,
        _largerCatechism = largerCatechism;
 
-  /// Create a WestminsterStandards instance with loaded data
-  static Future<WestminsterStandards> create([
+  /// Create a WestminsterStandards instance from pre-loaded data
+  /// This is useful for Flutter apps that need custom asset loading
+  static WestminsterStandards fromData({
+    required List<ConfessionChapter> confession,
+    required List<CatechismItem> shorterCatechism,
+    required List<CatechismItem> largerCatechism,
+  }) {
+    return WestminsterStandards._(
+      confession: confession,
+      shorterCatechism: shorterCatechism,
+      largerCatechism: largerCatechism,
+    );
+  }
+
+  /// Create a WestminsterStandards instance with custom asset loader
+  /// This is the preferred method for Flutter apps and other custom environments
+  static Future<WestminsterStandards> createWithLoader(
+    AssetLoader assetLoader, [
     WestminsterDocument documents = WestminsterDocument.all,
   ]) async {
+    final loader = WestminsterJsonLoader(assetLoader);
+
     List<ConfessionChapter> confession = [];
     List<CatechismItem> shorterCatechism = [];
     List<CatechismItem> largerCatechism = [];
 
     if (documents == WestminsterDocument.confession ||
         documents == WestminsterDocument.all) {
-      confession = await loadWestminsterConfession();
+      confession = await loader.loadWestminsterConfession();
     }
 
     if (documents == WestminsterDocument.shorterCatechism ||
         documents == WestminsterDocument.all) {
-      shorterCatechism = await loadWestminsterShorterCatechism();
+      shorterCatechism = await loader.loadWestminsterShorterCatechism();
     }
 
     if (documents == WestminsterDocument.largerCatechism ||
         documents == WestminsterDocument.all) {
-      largerCatechism = await loadWestminsterLargerCatechism();
+      largerCatechism = await loader.loadWestminsterLargerCatechism();
     }
 
     return WestminsterStandards._(
@@ -46,6 +67,24 @@ class WestminsterStandards {
       shorterCatechism: shorterCatechism,
       largerCatechism: largerCatechism,
     );
+  }
+
+  /// Create a WestminsterStandards instance with default file system loader
+  /// This works for pure Dart environments but will fail in Flutter
+  static Future<WestminsterStandards> create([
+    WestminsterDocument documents = WestminsterDocument.all,
+  ]) async {
+    try {
+      final assetLoader = FileSystemAssetLoader.create();
+      return await createWithLoader(assetLoader, documents);
+    } catch (e) {
+      throw AssetLoadingException(
+        'Failed to load Westminster Standards using file system loader. '
+            'If you are using Flutter, use createWithLoader() with a Flutter-compatible asset loader instead.',
+        'create()',
+        e,
+      );
+    }
   }
 
   // Enhanced access classes

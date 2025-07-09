@@ -12,9 +12,19 @@ Future<String> _loadAssetFile(String relativePath) async {
   final possiblePaths = [
     // Current working directory (for development)
     relativePath,
-    // Package assets directory (when installed)
+    // Assets directory from current working directory
     path.join('assets', relativePath),
-    // Pub cache location
+    // Package root directory (when installed as dependency)
+    path.join(
+      path.dirname(Platform.script.path),
+      '..',
+      '..',
+      '..',
+      '..',
+      'assets',
+      relativePath,
+    ),
+    // Alternative package root path
     path.join(
       path.dirname(Platform.script.path),
       '..',
@@ -23,6 +33,8 @@ Future<String> _loadAssetFile(String relativePath) async {
       'assets',
       relativePath,
     ),
+    // For development: try from project root
+    path.join(path.current, 'assets', relativePath),
   ];
 
   for (final filePath in possiblePaths) {
