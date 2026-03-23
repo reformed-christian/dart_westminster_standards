@@ -1,10 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:path/path.dart' as path;
-import 'models/catechism_qa.dart';
+import 'package:dart_catechism/dart_catechism.dart';
 import 'models/confession_chapter.dart';
-import 'models/proof_text.dart';
-import 'models/clause.dart';
 import 'models/confession_section.dart';
 
 /// Try to find and load a file from multiple possible locations

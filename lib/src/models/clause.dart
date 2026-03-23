@@ -1,16 +1,2 @@
-/// Data models for Westminster Standards documents
-
-import 'proof_text.dart';
-
-/// Represents a clause within a section or answer with its specific proof texts
-class Clause {
-  final String text;
-  final List<ProofText> proofTexts;
-  final int? footnoteNum;
-
-  const Clause({
-    required this.text,
-    required this.proofTexts,
-    this.footnoteNum,
-  });
-}
+/// Re-export from dart_catechism for backwards compatibility
+export 'package:dart_catechism/dart_catechism.dart' show Clause;

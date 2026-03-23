@@ -9,6 +9,10 @@ dependencies:
   flutter:
     sdk: flutter
   path: ^1.8.0
+  dart_catechism:
+    path: ../dart_catechism
+  dart_westminster_catechisms:
+    path: ../dart_westminster_catechisms
 
 dev_dependencies:
   flutter_test:

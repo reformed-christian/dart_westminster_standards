@@ -1,31 +1,10 @@
 /// Types and enums for Westminster Standards
 
+// Re-export generic catechism types
+export 'package:dart_catechism/dart_catechism.dart' show CatechismItemPart;
+
 /// Enum for selecting which Westminster Standards documents to initialize
 enum WestminsterDocument { confession, shorterCatechism, largerCatechism, all }
-
-/// Catechism item parts for exactStr method
-enum CatechismItemPart {
-  /// Search in question text only
-  question,
-
-  /// Search in answer text only
-  answer,
-
-  /// Search in proof text references only
-  references,
-
-  /// Search in question and answer text
-  questionAndAnswer,
-
-  /// Search in question and references
-  questionAndReferences,
-
-  /// Search in answer and references
-  answerAndReferences,
-
-  /// Search in all fields (question, answer, and references)
-  all,
-}
 
 /// Document types for unified search results
 enum WestminsterDocumentType { confession, shorterCatechism, largerCatechism }

@@ -8,6 +8,11 @@
 /// produced by the Westminster Assembly (1643-1649) and widely adopted
 /// by Presbyterian and Reformed churches worldwide.
 
+// Re-export catechism packages for convenience
+export "package:dart_catechism/dart_catechism.dart";
+export "package:dart_westminster_catechisms/dart_westminster_catechisms.dart"
+    hide Catechism, CatechismItem, CatechismItemPart, Clause, ProofText;
+
 export "src/models.dart";
 export "src/loaders.dart";
 export "src/westminster_standards_core.dart";

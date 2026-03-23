@@ -1,12 +1,2 @@
-/// Data models for Westminster Standards documents
-
-/// Represents a proof text reference
-class ProofText {
-  final String reference;
-  final String text;
-
-  const ProofText({required this.reference, required this.text});
-
-  @override
-  String toString() => '$reference: $text';
-}
+/// Re-export from dart_catechism for backwards compatibility
+export 'package:dart_catechism/dart_catechism.dart' show ProofText;
