@@ -10,7 +10,7 @@
 
 // Re-export catechism packages for convenience
 export "package:dart_catechism/dart_catechism.dart";
-export "package:dart_westminster_catechisms/dart_westminster_catechisms.dart"
+export "package:dart_westminster_catechism/dart_westminster_catechism.dart"
     hide Catechism, CatechismItem, CatechismItemPart, Clause, ProofText;
 
 export "src/models.dart";

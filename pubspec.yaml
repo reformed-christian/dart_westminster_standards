@@ -11,8 +11,8 @@ dependencies:
   path: ^1.8.0
   dart_catechism:
     path: ../dart_catechism
-  dart_westminster_catechisms:
-    path: ../dart_westminster_catechisms
+  dart_westminster_catechism:
+    path: ../dart_westminster_catechism
 
 dev_dependencies:
   flutter_test:
